@@ -7,18 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9650A052902A0940015C077 /* NeueFrutigerWorld-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9650A032902A0940015C077 /* NeueFrutigerWorld-Bold.ttf */; };
+		F9650A062902A0940015C077 /* NeueFrutigerWorld-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9650A042902A0940015C077 /* NeueFrutigerWorld-Book.ttf */; };
+		F9650A092902A49C0015C077 /* FontMenager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9650A082902A49C0015C077 /* FontMenager.swift */; };
+		F9650A0B2907E8680015C077 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9650A0A2907E8680015C077 /* FilterView.swift */; };
 		F967CCBC28FFDF8300848849 /* ListaLijekovaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F967CCBB28FFDF8300848849 /* ListaLijekovaApp.swift */; };
 		F967CCBE28FFDF8300848849 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F967CCBD28FFDF8300848849 /* ContentView.swift */; };
 		F967CCC028FFDF8400848849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F967CCBF28FFDF8400848849 /* Assets.xcassets */; };
 		F967CCC328FFDF8400848849 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F967CCC228FFDF8400848849 /* Preview Assets.xcassets */; };
+		F967CCCC28FFE22200848849 /* ListaLijekovaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F967CCCB28FFE22200848849 /* ListaLijekovaView.swift */; };
+		F967CCCE28FFE31D00848849 /* LijekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F967CCCD28FFE31D00848849 /* LijekView.swift */; };
+		F967CCD128FFFC8500848849 /* Lijek.swift in Sources */ = {isa = PBXBuildFile; fileRef = F967CCD028FFFC8500848849 /* Lijek.swift */; };
+		F967CCD42900007800848849 /* Kategorija.swift in Sources */ = {isa = PBXBuildFile; fileRef = F967CCD32900007800848849 /* Kategorija.swift */; };
+		F97622AD29000B6A00ADCCCF /* LijekRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97622AC29000B6A00ADCCCF /* LijekRow.swift */; };
+		F996F11E29026F4500F1621A /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F996F11D29026F4500F1621A /* test.swift */; };
+		F996F1202902956200F1621A /* Substance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F996F11F2902956200F1621A /* Substance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F9650A032902A0940015C077 /* NeueFrutigerWorld-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeueFrutigerWorld-Bold.ttf"; sourceTree = "<group>"; };
+		F9650A042902A0940015C077 /* NeueFrutigerWorld-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NeueFrutigerWorld-Book.ttf"; sourceTree = "<group>"; };
+		F9650A072902A25D0015C077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F9650A082902A49C0015C077 /* FontMenager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontMenager.swift; sourceTree = "<group>"; };
+		F9650A0A2907E8680015C077 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 		F967CCB828FFDF8300848849 /* ListaLijekova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListaLijekova.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F967CCBB28FFDF8300848849 /* ListaLijekovaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaLijekovaApp.swift; sourceTree = "<group>"; };
 		F967CCBD28FFDF8300848849 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F967CCBF28FFDF8400848849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F967CCC228FFDF8400848849 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F967CCCB28FFE22200848849 /* ListaLijekovaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaLijekovaView.swift; sourceTree = "<group>"; };
+		F967CCCD28FFE31D00848849 /* LijekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LijekView.swift; sourceTree = "<group>"; };
+		F967CCD028FFFC8500848849 /* Lijek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lijek.swift; sourceTree = "<group>"; };
+		F967CCD32900007800848849 /* Kategorija.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kategorija.swift; sourceTree = "<group>"; };
+		F97622AC29000B6A00ADCCCF /* LijekRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LijekRow.swift; sourceTree = "<group>"; };
+		F996F11D29026F4500F1621A /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		F996F11F2902956200F1621A /* Substance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +55,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F9650A012902A0430015C077 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F9650A022902A04C0015C077 /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F9650A022902A04C0015C077 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F9650A032902A0940015C077 /* NeueFrutigerWorld-Bold.ttf */,
+				F9650A042902A0940015C077 /* NeueFrutigerWorld-Book.ttf */,
+				F9650A082902A49C0015C077 /* FontMenager.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		F967CCAF28FFDF8300848849 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +92,12 @@
 		F967CCBA28FFDF8300848849 /* ListaLijekova */ = {
 			isa = PBXGroup;
 			children = (
-				F967CCBB28FFDF8300848849 /* ListaLijekovaApp.swift */,
+				F9650A072902A25D0015C077 /* Info.plist */,
+				F967CCCF28FFFC6D00848849 /* Model */,
+				F967CCD228FFFC9600848849 /* View */,
 				F967CCBD28FFDF8300848849 /* ContentView.swift */,
+				F9650A012902A0430015C077 /* Assets */,
+				F967CCBB28FFDF8300848849 /* ListaLijekovaApp.swift */,
 				F967CCBF28FFDF8400848849 /* Assets.xcassets */,
 				F967CCC128FFDF8400848849 /* Preview Content */,
 			);
@@ -65,6 +110,28 @@
 				F967CCC228FFDF8400848849 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F967CCCF28FFFC6D00848849 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F967CCD028FFFC8500848849 /* Lijek.swift */,
+				F967CCD32900007800848849 /* Kategorija.swift */,
+				F996F11F2902956200F1621A /* Substance.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F967CCD228FFFC9600848849 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F967CCCB28FFE22200848849 /* ListaLijekovaView.swift */,
+				F967CCCD28FFE31D00848849 /* LijekView.swift */,
+				F9650A0A2907E8680015C077 /* FilterView.swift */,
+				F996F11D29026F4500F1621A /* test.swift */,
+				F97622AC29000B6A00ADCCCF /* LijekRow.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +193,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F967CCC328FFDF8400848849 /* Preview Assets.xcassets in Resources */,
+				F9650A052902A0940015C077 /* NeueFrutigerWorld-Bold.ttf in Resources */,
 				F967CCC028FFDF8400848849 /* Assets.xcassets in Resources */,
+				F9650A062902A0940015C077 /* NeueFrutigerWorld-Book.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +206,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9650A0B2907E8680015C077 /* FilterView.swift in Sources */,
 				F967CCBE28FFDF8300848849 /* ContentView.swift in Sources */,
 				F967CCBC28FFDF8300848849 /* ListaLijekovaApp.swift in Sources */,
+				F967CCD42900007800848849 /* Kategorija.swift in Sources */,
+				F967CCCE28FFE31D00848849 /* LijekView.swift in Sources */,
+				F967CCCC28FFE22200848849 /* ListaLijekovaView.swift in Sources */,
+				F996F1202902956200F1621A /* Substance.swift in Sources */,
+				F996F11E29026F4500F1621A /* test.swift in Sources */,
+				F97622AD29000B6A00ADCCCF /* LijekRow.swift in Sources */,
+				F9650A092902A49C0015C077 /* FontMenager.swift in Sources */,
+				F967CCD128FFFC8500848849 /* Lijek.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +347,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ListaLijekova/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ListaLijekova/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +376,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ListaLijekova/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ListaLijekova/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
